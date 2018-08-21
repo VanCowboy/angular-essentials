@@ -7,6 +7,6 @@
 </div>
 <app-dashboard></app-dashboard>
 <app-user [name]="rootName" (nameChanged)="onNameChanged($event)"></app-user>
-<app-cart-component [items]="rootItems" (itemAdded)="onItemWasAdded($event)"></app-cart-component>
+<app-cart-component [items]="rootItems" (itemAdded)="onAddItem($event)"></app-cart-component>
 
 
