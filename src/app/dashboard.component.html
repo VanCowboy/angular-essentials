@@ -1,0 +1,10 @@
+<p>My Dashboard</p>
+<div>
+<button (click)="onSwitchState()">Swith State</button>
+</div>
+<p [textContent]='loadState'></p>
+<div>
+    <!-- <p>{{ loadState }}
+      <input type="text" (input)="loadState = $event.target.value"> </p>-->
+    <input type="text" [(ngModel)]="loadState">
+</div>
